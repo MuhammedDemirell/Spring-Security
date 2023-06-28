@@ -1,13 +1,9 @@
-package com.project.accountingProject.controller;
+package com.project.securityProject.controller;
 
-import com.project.accountingProject.model.entity.Role;
-import com.project.accountingProject.model.entity.User;
-import com.project.accountingProject.service.UserService;
-import lombok.Data;
+import com.project.securityProject.model.entity.Role;
+import com.project.securityProject.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/roles")
@@ -18,6 +14,7 @@ public class RoleController {
 
     @PatchMapping
     public Role save(@RequestBody Role role){
+
         return userService.save(role);
 
     }

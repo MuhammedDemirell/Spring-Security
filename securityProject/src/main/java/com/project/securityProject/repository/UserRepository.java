@@ -1,6 +1,6 @@
-package com.project.accountingProject.repository;
+package com.project.securityProject.repository;
 
-import com.project.accountingProject.model.entity.User;
+import com.project.securityProject.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

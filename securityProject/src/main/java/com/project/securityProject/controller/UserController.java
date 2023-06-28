@@ -1,7 +1,7 @@
-package com.project.accountingProject.controller;
+package com.project.securityProject.controller;
 
-import com.project.accountingProject.model.entity.User;
-import com.project.accountingProject.service.UserService;
+import com.project.securityProject.model.entity.User;
+import com.project.securityProject.service.UserService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

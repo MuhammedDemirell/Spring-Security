@@ -1,4 +1,4 @@
-package com.project.accountingProject.model.entity;
+package com.project.securityProject.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,6 @@
-package com.project.accountingProject.repository;
+package com.project.securityProject.repository;
 
-import com.project.accountingProject.model.entity.Role;
+import com.project.securityProject.model.entity.Role;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

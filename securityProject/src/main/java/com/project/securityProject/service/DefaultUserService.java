@@ -1,9 +1,9 @@
-package com.project.accountingProject.service;
+package com.project.securityProject.service;
 
-import com.project.accountingProject.model.entity.Role;
-import com.project.accountingProject.model.entity.User;
-import com.project.accountingProject.repository.RoleRepository;
-import com.project.accountingProject.repository.UserRepository;
+import com.project.securityProject.model.entity.Role;
+import com.project.securityProject.model.entity.User;
+import com.project.securityProject.repository.RoleRepository;
+import com.project.securityProject.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

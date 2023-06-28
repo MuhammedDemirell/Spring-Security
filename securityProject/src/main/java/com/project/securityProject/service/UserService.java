@@ -1,7 +1,7 @@
-package com.project.accountingProject.service;
+package com.project.securityProject.service;
 
-import com.project.accountingProject.model.entity.Role;
-import com.project.accountingProject.model.entity.User;
+import com.project.securityProject.model.entity.Role;
+import com.project.securityProject.model.entity.User;
 
 import java.util.List;
 
